@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>FPV Drone Arena</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <canvas id="gameCanvas"></canvas>
+
+      <div class="hud">
+        <div class="hud-title">FPV DRONE ARENA</div>
+
+        <div class="hud-info">
+          <span>Steps/s: <strong id="steps">0</strong></span>
+          <span>Frames/s: <strong id="fps">0</strong></span>
+          <span>Frame time: <strong id="frameTime">0</strong> ms</span>
+        </div>
+
+        <div class="controls">
+          <span>WASD — керування</span>
+          <span>ESC — скидання позиції</span>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
